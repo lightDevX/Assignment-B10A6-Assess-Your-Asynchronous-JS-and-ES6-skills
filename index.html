@@ -1,33 +1,79 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./assets/css/tailwindcss/tailwind.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./assets/css/tailwindcss/tailwind.css" />
+  </head>
+  <body class="font-lato">
     <header>
-        <div class="container mx-auto">
-            <div class="flex justify-between items-center py-3">
-            <div>
-                <a href="#" class="flex items-center gap-1.5">
-                    <img src="./assets/media/logo.webp" alt="logo"> Peddy
-                </a>
-            </div>
-            <nav>
-                <ul class="flex justify-between items-center gap-5 text-red-300">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Shop</a></li>
-                    <li><a href="#">Contact </a></li>
-                </ul>
-                
-            </nav>
-            <div>
-                    icon
-                </div>
+      <div class="container mx-auto">
+        <div class="flex items-center justify-between py-3">
+          <div>
+            <a href="#" class="flex items-center gap-1.5">
+              <img src="./assets/media/logo.webp" alt="logo" /> Peddy
+            </a>
+          </div>
+          <nav>
+            <ul class="flex items-center justify-between gap-5">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Shop</a></li>
+              <li><a href="#">Contact </a></li>
+            </ul>
+          </nav>
+          <div>icon</div>
         </div>
-        </div>
+      </div>
     </header>
-</body>
+    <main>
+      <section>
+        <div class="container mx-auto mt-14">
+          <div class="flex flex-col items-center justify-center space-y-6">
+            <div class="flex flex-col items-center justify-center space-y-6">
+              <p class="font-bold text-slate-600/60">
+                Bringing Families Together ❤️‍🔥
+              </p>
+              <h3 class="text-center text-7xl font-black">
+                Your Path to Adoption Starts Here
+              </h3>
+            </div>
+            <p class="text-center text-base font-normal text-[#131313]">
+              It is a long established fact that a reader will be distracted by
+              the readable content of a page when looking at its layout. The
+              point of using Lorem Ipsum is that it has a.
+            </p>
+            <button class="rounded-xl bg-[#0E7A81] px-8 py-4 text-white">
+              View More
+            </button>
+            <div>
+              <img
+                src="./assets/media/pet.webp"
+                alt="Hero Image"
+                class="h-full w-full object-cover"
+              />
+            </div>
+            <h3 class="text-center text-5xl font-black">
+              Adopt Your Best Friend
+            </h3>
+            <p class="text-center text-base font-normal">
+              It is a long established fact that a reader will be distracted by
+              the readable content of a page when looking at its layout. The
+              point of using Lorem Ipsum is that it has a.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- dynamic button section -->
+      <section>
+        <div class="container mx-auto mt-14">
+          <div class="flex items-center justify-between" id="btn-list">
+            <div>
+              <button>a</button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>

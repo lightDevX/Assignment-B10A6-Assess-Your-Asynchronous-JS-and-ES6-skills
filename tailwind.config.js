@@ -2,7 +2,12 @@
 export default {
   content: ["./**/*.{html,js,css}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        lato: ["Lato", "sans-serif"],
+      },
+    },
+
   },
-  plugins: [],
+  plugins: [require("@tailwindcss/typography"),],
 }
