@@ -59,7 +59,7 @@ const displayPetCard = (pets) => {
     petDiv.classList.add("rounded-md", "border-2", "border-gray-300/30", "p-5");
     petDiv.innerHTML = `
     <div class="space-y-5 p-1">
-      <div class="h-40 w-72">
+      <div>
           <img
             src="${pet.image}" alt="Pet Image"
             class="h-full w-full rounded-lg object-cover"
