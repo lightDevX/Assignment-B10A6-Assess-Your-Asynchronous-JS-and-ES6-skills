@@ -30,7 +30,9 @@
       <section>
         <div class="container mx-auto mt-14">
           <div class="flex flex-col items-center justify-center space-y-6">
-            <div class="flex flex-col items-center justify-center space-y-6">
+            <div
+              class="flex w-[752px] flex-col items-center justify-center space-y-6"
+            >
               <p class="font-bold text-slate-600/60">
                 Bringing Families Together ❤️‍🔥
               </p>
@@ -38,7 +40,9 @@
                 Your Path to Adoption Starts Here
               </h3>
             </div>
-            <p class="text-center text-base font-normal text-[#131313]">
+            <p
+              class="w-[752px] text-center text-base font-normal text-[#131313]"
+            >
               It is a long established fact that a reader will be distracted by
               the readable content of a page when looking at its layout. The
               point of using Lorem Ipsum is that it has a.
@@ -53,10 +57,10 @@
                 class="h-full w-full object-cover"
               />
             </div>
-            <h3 class="text-center text-5xl font-black">
+            <h3 class="w-[752px] text-center text-5xl font-black">
               Adopt Your Best Friend
             </h3>
-            <p class="text-center text-base font-normal">
+            <p class="w-[752px] text-center text-base font-normal">
               It is a long established fact that a reader will be distracted by
               the readable content of a page when looking at its layout. The
               point of using Lorem Ipsum is that it has a.
@@ -67,13 +71,59 @@
       <!-- dynamic button section -->
       <section>
         <div class="container mx-auto mt-14">
-          <div class="flex items-center justify-between" id="btn-list">
-            <div>
-              <button>a</button>
+          <div class="flex items-center justify-between" id="btn-list"></div>
+        </div>
+      </section>
+
+      <!-- sorting section -->
+      <section>
+        <div class="container mx-auto my-8">
+          <div class="flex items-center justify-between">
+            <p class="text-2xl font-black">Best Deal For you</p>
+            <button class="rounded-xl bg-[#0E7A81] px-8 py-4 text-white">
+              Sort by Price
+            </button>
+          </div>
+        </div>
+      </section>
+      <!-- Pet listed section -->
+      <section>
+        <div class="container mx-auto">
+          <!-- Main grid with 2 parts -->
+          <div class="grid grid-cols-3 gap-6">
+            <!-- Left Section (4-Grid Layout) -->
+            <div class="col-span-2 rounded-lg">
+              <div class="grid grid-cols-3 gap-6 md:grid-cols-3">
+                <div class="border-2 border-slate-400 bg-slate-400">
+                  <div class="space-y-5 p-5">
+                    <div class="">
+                      <img src="./assets/media/pet.webp" alt="" />
+                    </div>
+                    <h1>Mister Tartosh</h1>
+                    <p>Breed: Golder retriever</p>
+                    <p>Birth: 2024</p>
+                    <p>Gender: Female</p>
+                    <p>Price : 199$</p>
+                  </div>
+                </div>
+                <div class="bg-slate-400 p-4">Item 2</div>
+                <div class="bg-slate-400 p-4">Item 3</div>
+                <div class="bg-slate-400 p-4">Item 4</div>
+              </div>
             </div>
+
+            <!-- Right Section (2-Grid Layout) -->
+            <aside class="border border-red-400 p-4">
+              <div class="grid grid-cols-2 gap-6">
+                <div class="bg-gray-200 p-4">Item A</div>
+                <div class="bg-gray-200 p-4">Item B</div>
+              </div>
+            </aside>
           </div>
         </div>
       </section>
     </main>
+
+    <script src="./assets/js/main.js"></script>
   </body>
 </html>
